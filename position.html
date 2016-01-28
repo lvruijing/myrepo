@@ -1,0 +1,28 @@
+//希望让一个文本段落对准一个大框的右下角，可先让包含框相对定位，然后对文本绝对定位。
+
+<html>
+<head>
+<style type="text/css">
+#branding {
+   width:700px;
+   height:100px;
+   background-color:#FFFFCC;
+   position:relative;
+   color:#cccccc;
+ }
+
+ #branding .tel {
+   position:absolute;
+   right:10px;
+   bottom:10px;
+   text-align:right;
+ }
+
+</style>
+</head>
+<body>
+<div id="branding">
+<p class="tel">Tel:13439336707</p>
+</div>
+</body>
+</html>
