@@ -5,7 +5,7 @@
 
 □一般规范
 
-//①无需多余无语义的div嵌套，直接上<ul><li></li><li></li></ul>"
+①无需多余无语义的div嵌套，直接上<ul><li></li><li></li></ul>
 
 ②li元素内的锚元素a直接设display为block方便设置样式。li的宽度通过a的padding控制，高度通过a的行高控制。
 
